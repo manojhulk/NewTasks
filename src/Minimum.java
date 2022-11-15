@@ -10,7 +10,7 @@ public class Minimum {
             min=arr[j]<min?arr[j]:min;
             sum+=arr[j];
         }
-        System.out.println("arr"+arr);
+
         System.out.println("maximum "+max);
         System.out.println("minimum "+min);
         System.out.println("Mean "+(max/n));
@@ -111,8 +111,7 @@ public class Minimum {
         public Integer next() {
             return Integer.valueOf(arr[currentIndex++]);
         }
-    };
-*/
+    };*/
     public void even(int[] arr){
         for(int i:arr){
             if((i&1)==0){
